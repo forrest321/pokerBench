@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	UseFo()
+	run()
 }
 
-func UseFo() {
+func run() {
 	var hands []ph.Hand
 	deck := ph.NewDeck()
 	deck.Shuffle()
